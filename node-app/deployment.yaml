@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: demo-node-app
-          image: gboie/examplenode-dev:4
+          image: dentsupaymentsstgacr.azurecr.io/dpnode-stag:7
           ports:
             - containerPort: 3000
